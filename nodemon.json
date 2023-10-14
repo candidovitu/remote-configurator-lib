@@ -1,0 +1,11 @@
+{
+    "watch": [
+        "*.ts",
+        "*.js"
+    ],
+    "ignore": [
+        "dist/**/*"
+    ],
+    "exec": "node examples/firstconfig.js || exit 1",
+    "ext": "ts,json,.env,js"
+}
